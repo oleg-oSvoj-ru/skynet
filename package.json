@@ -1,19 +1,18 @@
 {
-  "name": "neural_net",
-  "version": "1.0.0",
+  "name": "neural_net.coffee",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "index.coffee",
   "scripts": {
-    "start": "babel-node index.js --presets=env",
+    "start": "coffee index.coffee --presets=env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mathjs": "^5.0.0"
+    "mathjs": "^5.0.0",
+    "pouchdb": "^7.3.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
   }
 }
